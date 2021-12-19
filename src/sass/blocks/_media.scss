@@ -1,0 +1,29 @@
+@media (max-width: 1200px) {
+}
+
+@media (max-width:991px) {
+    .promo{
+        &__header {
+            font-size: 39px;
+        }
+        &__subheader {
+            font-size: 22px;
+            margin-top: 2px;
+        }
+        .button {
+            &_main{
+                width: 275px;
+                height: 45px;
+            }
+        }
+
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__header{
+
+        }
+    }
+}
